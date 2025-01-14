@@ -42,6 +42,10 @@ local Converted = {
 	["_rainbow8"] = Instance.new("LocalScript");
 	["_hitbox1"] = Instance.new("TextButton");
 	["_hitboxonoff"] = Instance.new("LocalScript");
+	["_aimbot"] = Instance.new("TextLabel");
+	["_rainbow9"] = Instance.new("LocalScript");
+	["_aimbot1"] = Instance.new("TextButton");
+	["_aimbotonoff"] = Instance.new("LocalScript");
 }
 
 -- Properties:
@@ -288,6 +292,33 @@ Converted["_hitbox1"].Size = UDim2.new(0.0078125, 0, 0.0148147866, 0)
 Converted["_hitbox1"].Name = "hitbox"
 Converted["_hitbox1"].Parent = Converted["_ScreenGui"]
 
+Converted["_aimbot"].Font = Enum.Font.Sarpanch
+Converted["_aimbot"].Text = "AimBot"
+Converted["_aimbot"].TextColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_aimbot"].TextSize = 25
+Converted["_aimbot"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_aimbot"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_aimbot"].BackgroundTransparency = 1
+Converted["_aimbot"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_aimbot"].BorderSizePixel = 0
+Converted["_aimbot"].Position = UDim2.new(0.413541675, 0, 0.573148131, 0)
+Converted["_aimbot"].Size = UDim2.new(0.0364583321, 0, 0.0194444451, 0)
+Converted["_aimbot"].Name = "aimbot"
+Converted["_aimbot"].Parent = Converted["_ScreenGui"]
+
+Converted["_aimbot1"].Font = Enum.Font.Sarpanch
+Converted["_aimbot1"].Text = "■"
+Converted["_aimbot1"].TextColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_aimbot1"].TextSize = 20
+Converted["_aimbot1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_aimbot1"].BackgroundTransparency = 1
+Converted["_aimbot1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_aimbot1"].BorderSizePixel = 0
+Converted["_aimbot1"].Position = UDim2.new(0.453125, 0, 0.577777803, 0)
+Converted["_aimbot1"].Size = UDim2.new(0.0078125, 0, 0.0148147866, 0)
+Converted["_aimbot1"].Name = "aimbot"
+Converted["_aimbot1"].Parent = Converted["_ScreenGui"]
+
 -- Fake Module Scripts:
 
 local fake_module_scripts = {}
@@ -295,7 +326,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function AXNS_fake_script() -- Fake Script: StarterGui.ScreenGui.move
+local function IFJO_fake_script() -- Fake Script: StarterGui.ScreenGui.move
     local script = Instance.new("LocalScript")
     script.Name = "move"
     script.Parent = Converted["_ScreenGui"]
@@ -490,7 +521,7 @@ local function AXNS_fake_script() -- Fake Script: StarterGui.ScreenGui.move
 	end)
 	
 end
-local function GVZY_fake_script() -- Fake Script: StarterGui.ScreenGui.have.UIStroke.LocalScript
+local function NEYEHKA_fake_script() -- Fake Script: StarterGui.ScreenGui.have.UIStroke.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_UIStroke"]
@@ -516,7 +547,7 @@ local function GVZY_fake_script() -- Fake Script: StarterGui.ScreenGui.have.UISt
 	end
 	
 end
-local function YOZS_fake_script() -- Fake Script: StarterGui.ScreenGui.title.rainbow
+local function CVEC_fake_script() -- Fake Script: StarterGui.ScreenGui.title.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_title"]
@@ -543,7 +574,7 @@ local function YOZS_fake_script() -- Fake Script: StarterGui.ScreenGui.title.rai
 	end
 	
 end
-local function OWCUEP_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.rainbow
+local function GCJC_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_boxesp"]
@@ -570,7 +601,7 @@ local function OWCUEP_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.
 	end
 	
 end
-local function RYJX_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.boxesponoff
+local function YNRA_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.boxesponoff
     local script = Instance.new("LocalScript")
     script.Name = "boxesponoff"
     script.Parent = Converted["_boxesp1"]
@@ -724,7 +755,7 @@ local function RYJX_fake_script() -- Fake Script: StarterGui.ScreenGui.boxesp.bo
 	end)
 	
 end
-local function ERHRWRP_fake_script() -- Fake Script: StarterGui.ScreenGui.distance.distanceonoff
+local function TSPWCPG_fake_script() -- Fake Script: StarterGui.ScreenGui.distance.distanceonoff
     local script = Instance.new("LocalScript")
     script.Name = "distanceonoff"
     script.Parent = Converted["_distance"]
@@ -874,7 +905,7 @@ local function ERHRWRP_fake_script() -- Fake Script: StarterGui.ScreenGui.distan
 	end)
 	
 end
-local function QYLZNZC_fake_script() -- Fake Script: StarterGui.ScreenGui.distance.rainbow
+local function IGTFXW_fake_script() -- Fake Script: StarterGui.ScreenGui.distance.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_distance1"]
@@ -901,7 +932,7 @@ local function QYLZNZC_fake_script() -- Fake Script: StarterGui.ScreenGui.distan
 	end
 	
 end
-local function VHJPWE_fake_script() -- Fake Script: StarterGui.ScreenGui.chestesp.rainbow
+local function QUDMBP_fake_script() -- Fake Script: StarterGui.ScreenGui.chestesp.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_chestesp"]
@@ -928,7 +959,7 @@ local function VHJPWE_fake_script() -- Fake Script: StarterGui.ScreenGui.chestes
 	end
 	
 end
-local function OEFIYJZ_fake_script() -- Fake Script: StarterGui.ScreenGui.chestesp.chestesponoff
+local function XUQAUVE_fake_script() -- Fake Script: StarterGui.ScreenGui.chestesp.chestesponoff
     local script = Instance.new("LocalScript")
     script.Name = "chestesponoff"
     script.Parent = Converted["_chestesp1"]
@@ -1021,7 +1052,7 @@ local function OEFIYJZ_fake_script() -- Fake Script: StarterGui.ScreenGui.cheste
 	end)
 	
 end
-local function QNNFEI_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.tpwalkonoff
+local function CVEDBJB_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.tpwalkonoff
     local script = Instance.new("LocalScript")
     script.Name = "tpwalkonoff"
     script.Parent = Converted["_tpwalk"]
@@ -1146,7 +1177,7 @@ local function QNNFEI_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.
 	end)
 	
 end
-local function KQNDAD_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.rainbow
+local function LODLMUO_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_tpwalk1"]
@@ -1173,7 +1204,7 @@ local function KQNDAD_fake_script() -- Fake Script: StarterGui.ScreenGui.tpwalk.
 	end
 	
 end
-local function QJFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.skinchange.rainbow
+local function IPWW_fake_script() -- Fake Script: StarterGui.ScreenGui.skinchange.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_skinchange"]
@@ -1200,7 +1231,7 @@ local function QJFJ_fake_script() -- Fake Script: StarterGui.ScreenGui.skinchang
 	end
 	
 end
-local function YHVWJNQ_fake_script() -- Fake Script: StarterGui.ScreenGui.skinchange.skinchangeonoff
+local function NJSWF_fake_script() -- Fake Script: StarterGui.ScreenGui.skinchange.skinchangeonoff
     local script = Instance.new("LocalScript")
     script.Name = "skinchangeonoff"
     script.Parent = Converted["_skinchange1"]
@@ -1435,7 +1466,7 @@ local function YHVWJNQ_fake_script() -- Fake Script: StarterGui.ScreenGui.skinch
 	end)
 	
 end
-local function SFVVXB_fake_script() -- Fake Script: StarterGui.ScreenGui.line.rainbow
+local function DXNHARB_fake_script() -- Fake Script: StarterGui.ScreenGui.line.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_line"]
@@ -1462,7 +1493,7 @@ local function SFVVXB_fake_script() -- Fake Script: StarterGui.ScreenGui.line.ra
 	end
 	
 end
-local function LYXCNL_fake_script() -- Fake Script: StarterGui.ScreenGui.line.lineonoff
+local function EGLDVXL_fake_script() -- Fake Script: StarterGui.ScreenGui.line.lineonoff
     local script = Instance.new("LocalScript")
     script.Name = "lineonoff"
     script.Parent = Converted["_line1"]
@@ -1580,7 +1611,7 @@ local function LYXCNL_fake_script() -- Fake Script: StarterGui.ScreenGui.line.li
 	end)
 	
 end
-local function QRSN_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump.rainbow
+local function PSJIAHC_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_infjump"]
@@ -1607,7 +1638,7 @@ local function QRSN_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump.r
 	end
 	
 end
-local function EHUSZR_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump.infjumponoff
+local function UCTVFVX_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump.infjumponoff
     local script = Instance.new("LocalScript")
     script.Name = "infjumponoff"
     script.Parent = Converted["_infjump1"]
@@ -1664,7 +1695,7 @@ local function EHUSZR_fake_script() -- Fake Script: StarterGui.ScreenGui.infjump
 	end)
 	
 end
-local function FTQPJ_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox.rainbow
+local function PSCRZ_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox.rainbow
     local script = Instance.new("LocalScript")
     script.Name = "rainbow"
     script.Parent = Converted["_hitbox"]
@@ -1691,7 +1722,7 @@ local function FTQPJ_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox.r
 	end
 	
 end
-local function MKEZAHR_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox.hitboxonoff
+local function UTWVKG_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox.hitboxonoff
     local script = Instance.new("LocalScript")
     script.Name = "hitboxonoff"
     script.Parent = Converted["_hitbox1"]
@@ -1816,23 +1847,237 @@ local function MKEZAHR_fake_script() -- Fake Script: StarterGui.ScreenGui.hitbox
 	end
 	
 end
+local function WOTEG_fake_script() -- Fake Script: StarterGui.ScreenGui.aimbot.rainbow
+    local script = Instance.new("LocalScript")
+    script.Name = "rainbow"
+    script.Parent = Converted["_aimbot"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
-coroutine.wrap(AXNS_fake_script)()
-coroutine.wrap(GVZY_fake_script)()
-coroutine.wrap(YOZS_fake_script)()
-coroutine.wrap(OWCUEP_fake_script)()
-coroutine.wrap(RYJX_fake_script)()
-coroutine.wrap(ERHRWRP_fake_script)()
-coroutine.wrap(QYLZNZC_fake_script)()
-coroutine.wrap(VHJPWE_fake_script)()
-coroutine.wrap(OEFIYJZ_fake_script)()
-coroutine.wrap(QNNFEI_fake_script)()
-coroutine.wrap(KQNDAD_fake_script)()
-coroutine.wrap(QJFJ_fake_script)()
-coroutine.wrap(YHVWJNQ_fake_script)()
-coroutine.wrap(SFVVXB_fake_script)()
-coroutine.wrap(LYXCNL_fake_script)()
-coroutine.wrap(QRSN_fake_script)()
-coroutine.wrap(EHUSZR_fake_script)()
-coroutine.wrap(FTQPJ_fake_script)()
-coroutine.wrap(MKEZAHR_fake_script)()
+	-- TextLabelへの参照を取得
+	local textLabel = script.Parent
+	
+	while true do
+		-- 現在の時間を取得し、周期的に変化する値（0～1の範囲）を計算
+		local hue = (tick() % 5) / 5  -- 約5秒で1周する虹色を生成
+		-- HSV色空間を使用して虹色を作成
+		textLabel.TextColor3 = Color3.fromHSV(hue, 1, 1)
+	
+		-- 色の更新頻度を調整（例: 0.1秒毎に更新）
+		wait(0.1)
+	end
+	
+end
+local function JCAV_fake_script() -- Fake Script: StarterGui.ScreenGui.aimbot.aimbotonoff
+    local script = Instance.new("LocalScript")
+    script.Name = "aimbotonoff"
+    script.Parent = Converted["_aimbot1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- TextButtonを取得
+	local button = script.Parent
+	
+	-- 元のテキストの色を保存
+	local originalColor = button.TextColor3
+	-- 緑色の定義
+	local greenColor = Color3.fromRGB(0, 255, 0)
+	
+	-- 色の切り替え状態を管理するフラグ
+	local isGreen = false
+	
+	-- 2つ目のスクリプトで使用する変数・接続を格納するテーブル
+	local connections = {}
+	
+	-- サービスの取得
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	
+	-- Drawingライブラリを使用して線を作成
+	local line = Drawing.new("Line")
+	line.Color = Color3.new(1, 0, 0)
+	line.Thickness = 2
+	line.Transparency = 1
+	
+	-- 右クリックのフラグ
+	local isRightClickDown = false
+	
+	-- 現在のターゲットプレイヤー
+	local currentTargetPlayer = nil
+	
+	-- スムーズネスの設定を調整してaim強度を高める（値を小さくするとより強くなります）
+	local smoothness = 3  -- これを小さくするほど強いaimになります
+	
+	-- 最大距離の設定（メートル単位）
+	local maxDistance = 250
+	
+	-- 2つ目のスクリプトの処理開始時に呼ばれる関数
+	local function startSecondScript()
+		-- 右クリックの押下・解放を検出
+		local inputBeganConn = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if not gameProcessed and input.UserInputType == Enum.UserInputType.MouseButton2 then
+				isRightClickDown = true
+			end
+		end)
+		table.insert(connections, inputBeganConn)
+	
+		local inputEndedConn = UserInputService.InputEnded:Connect(function(input, gameProcessed)
+			if not gameProcessed and input.UserInputType == Enum.UserInputType.MouseButton2 then
+				isRightClickDown = false
+			end
+		end)
+		table.insert(connections, inputEndedConn)
+	
+		-- RenderSteppedで毎フレーム更新
+		local renderConn = RunService.RenderStepped:Connect(function()
+			local mousePos = UserInputService:GetMouseLocation()
+	
+			-- 右クリック中でなければターゲット探索を行う
+			if not isRightClickDown then
+				local nearestPlayer = nil
+				local nearestDist = math.huge
+	
+				-- 最も近いプレイヤーを探す処理
+				for _, otherPlayer in ipairs(Players:GetPlayers()) do
+					if otherPlayer ~= player and otherPlayer.Character and otherPlayer.Character:FindFirstChild("Head") then
+						local head = otherPlayer.Character.Head
+						local headScreenPos, onScreen = camera:WorldToViewportPoint(head.Position)
+						local distance = (camera.CFrame.Position - head.Position).Magnitude
+						-- プレイヤーが画面内にいて、250m以内の場合のみ考慮
+						if onScreen and distance <= maxDistance then
+							local headVec2 = Vector2.new(headScreenPos.X, headScreenPos.Y)
+							local dist = (headVec2 - mousePos).Magnitude
+							if dist < nearestDist then
+								nearestDist = dist
+								nearestPlayer = otherPlayer
+							end
+						end
+					end
+				end
+	
+				-- 新しいターゲットが見つかった場合のみ更新
+				if nearestPlayer and nearestPlayer.Character and nearestPlayer.Character:FindFirstChild("Head") then
+					local head = nearestPlayer.Character.Head
+					local headScreenPos, onScreen = camera:WorldToViewportPoint(head.Position)
+					local distance = (camera.CFrame.Position - head.Position).Magnitude
+					-- プレイヤーが画面内にいて、250m以内の場合のみ線を表示
+					if onScreen and distance <= maxDistance then
+						currentTargetPlayer = nearestPlayer
+					else
+						currentTargetPlayer = nil
+					end
+				else
+					currentTargetPlayer = nil
+				end
+			end
+	
+			-- 現在のターゲットプレイヤーに基づいて線の更新処理を行う
+			if currentTargetPlayer and currentTargetPlayer.Character and currentTargetPlayer.Character:FindFirstChild("Head") then
+				local head = currentTargetPlayer.Character.Head
+				local headScreenPos, onScreen = camera:WorldToViewportPoint(head.Position)
+				local distance = (camera.CFrame.Position - head.Position).Magnitude
+				-- プレイヤーが画面内にいて、250m以内の場合のみ線を表示
+				if onScreen and distance <= maxDistance then
+					line.Visible = true
+					line.From = mousePos
+					line.To = Vector2.new(headScreenPos.X, headScreenPos.Y)
+				else
+					line.Visible = false
+				end
+			else
+				line.Visible = false
+			end
+	
+			-- 右クリック押下中でターゲットが存在する場合、マウスをスムーズに移動
+			if isRightClickDown and currentTargetPlayer 
+				and currentTargetPlayer.Character 
+				and currentTargetPlayer.Character:FindFirstChild("Head") then
+	
+				local targetHead = currentTargetPlayer.Character.Head
+				local headScreenPos, onScreen = camera:WorldToViewportPoint(targetHead.Position)
+				local distance = (camera.CFrame.Position - targetHead.Position).Magnitude
+				if onScreen and distance <= maxDistance then
+					local targetScreenPos = Vector2.new(headScreenPos.X, headScreenPos.Y)
+					-- 現在のマウス位置を取得
+					local currentMousePos = UserInputService:GetMouseLocation()
+					-- 移動量を計算し、aim強度を反映
+					local deltaX = (targetScreenPos.X - currentMousePos.X) / smoothness
+					local deltaY = (targetScreenPos.Y - currentMousePos.Y) / smoothness
+					-- マウスを相対移動
+					mousemoverel(deltaX, deltaY)
+				end
+			end
+		end)
+		table.insert(connections, renderConn)
+	end
+	
+	-- 2つ目のスクリプトの処理停止時に呼ばれる関数
+	local function stopSecondScript()
+		-- 確立された全ての接続を解除
+		for _, conn in ipairs(connections) do
+			if conn.Connected then
+				conn:Disconnect()
+			end
+		end
+		connections = {}  -- 接続リストをリセット
+	
+		-- 必要に応じてフラグや線の表示をリセット
+		isRightClickDown = false
+		currentTargetPlayer = nil
+		line.Visible = false
+	end
+	
+	-- ボタンクリック時の処理
+	button.MouseButton1Click:Connect(function()
+		if isGreen then
+			-- 緑色なら元の色に戻し、2つ目のスクリプトを停止
+			button.TextColor3 = originalColor
+			stopSecondScript()
+		else
+			-- 緑色でない場合は緑色にし、2つ目のスクリプトを開始
+			button.TextColor3 = greenColor
+			startSecondScript()
+		end
+		-- 状態を反転
+		isGreen = not isGreen
+	end)
+	
+end
+
+coroutine.wrap(IFJO_fake_script)()
+coroutine.wrap(NEYEHKA_fake_script)()
+coroutine.wrap(CVEC_fake_script)()
+coroutine.wrap(GCJC_fake_script)()
+coroutine.wrap(YNRA_fake_script)()
+coroutine.wrap(TSPWCPG_fake_script)()
+coroutine.wrap(IGTFXW_fake_script)()
+coroutine.wrap(QUDMBP_fake_script)()
+coroutine.wrap(XUQAUVE_fake_script)()
+coroutine.wrap(CVEDBJB_fake_script)()
+coroutine.wrap(LODLMUO_fake_script)()
+coroutine.wrap(IPWW_fake_script)()
+coroutine.wrap(NJSWF_fake_script)()
+coroutine.wrap(DXNHARB_fake_script)()
+coroutine.wrap(EGLDVXL_fake_script)()
+coroutine.wrap(PSJIAHC_fake_script)()
+coroutine.wrap(UCTVFVX_fake_script)()
+coroutine.wrap(PSCRZ_fake_script)()
+coroutine.wrap(UTWVKG_fake_script)()
+coroutine.wrap(WOTEG_fake_script)()
+coroutine.wrap(JCAV_fake_script)()
